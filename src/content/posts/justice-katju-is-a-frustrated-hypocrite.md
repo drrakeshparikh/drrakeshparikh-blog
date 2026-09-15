@@ -1,0 +1,40 @@
+---
+title: "Is Justice Katju a frustrated hypocrite?"
+slug: "justice-katju-is-a-frustrated-hypocrite"
+date: "2015-08-05"
+originalUrl: "https://drrakeshparikh.com/justice-katju-is-a-frustrated-hypocrite/"
+categories: ["Politics"]
+tags: []
+legacyImages: false
+---
+I am not used to writing such blogs with derogatory titles but recently got inspired by a blog of Justice Katju where he calls Mahatma Gandhi a British agent. While preparing a reply to his blog, I went through other articles on his blog and found this title appropriate. Below are a few arguments in support of the title and I am sure those are as strong as the onse Justice Katju used while calling Gandhi a British agent.
+
+**Why do I call him a hypocrite?**
+
+The dictionary meaning of the word "Hypocrite" is a person who pretends to have virtues, moral or religious beliefs, principles, etc., that he or she does not actually possess. From his blogs where he blames Gandhi for exploiting religious sentiments for mass mobilization, he presents himself as a secular man, more secular than the Mahatma. But then is he really secular?
+
+Justice Katju criticizes Salman Rushdie for Satanic versus saying it has hurt the sentiments of Muslims. He doesn't even like the writings of Taslima Nasreen, the famous writer. According to Justice Katju she has no understanding of religion. I did not come across any blog of Justice Katju on a critic of Hinduism, though there are chances that I might have missed. Giving this benefit of doubt I expect that being a secular man he would have equal respect for the sentiments of Hindus.
+
+But then comes his blog against beef ban. He goes a step further writing a blog with 5 foolish arguments to justify eating beef. I wonder if he at all cares about the sentiments of Hindus that he might have hurt with his blog. He has enough of time to give unwarranted statements on Geeta, in response to a speech by Justice Dave.
+
+A little weaker argument, still at par with the arguments that Justice Katju uses against Late M K Gandhi, is his sympathy for Yakub Menon, a terrorist who killed 250 innocent Indians. I haven't seen him coming so strongly for any Hindu on death row.
+
+What's his take on Asaduddin Owaisi? Yes, he calls him a dramebaz but that’s only after being fade up of him. He sent several mails to Owaisi advising him to sit on some dharna. Owaisi did not reply to his mails and that’s when he has to face the ire. I did not find any article by Justice Katju criticizing him for his inflammatory speeches nor of his brother.
+
+What do you call this? When someone who advocates secularism, extends free advises to care for sentiments of Muslims while he himself doesn't care about sentiments of Hindus. I would call him a HYPOCRITE.
+
+**Why do I call him frustrated? **
+
+Whether you like him or not but Arvind Kejriwal is a crusader against corruption. He has also proven himself with the good governance in Delhi. He is a hope for millions. Justice Katju wrote a number of blogs criticizing Arvind Kejriwal calling him a fraud. Out of the Indian politicians that include a list of convicted scamsters (Scammers) and criminals, Justice Katju finds Arvind Kejriwal the one whom he would like to criticize. I doubt he ever spoke about the judiciary that overlooked dying declaration of the journalist who was burnt alive at the behest of politicians.
+
+Shanti Bhushan is a well known reputed senior lawyer who has dared to fight against Indira Gandhi during her dectatorial rule. Again Justice Katju on his blog has number of articles criticizing Shanti Bhushan for some or other thing.
+
+Amitabh Thakur, an IAS officer from UP who was recently in news for daring to expose the Gundaraj in UP. Justice Katju doesn't spare him too. You would see a number of blogs by Justice Katju against him and his wife Nutan Thakur who is a well known social activist.
+
+Justice Katju doesn't just stop here. But goes on calling Mahatma Gandhi, Lokmanya Tilak and Tagore as British agents, Netaji Subhash Chandra Bose as Japanese agent. One must remember that none of them are alive to defend themselves.
+
+Now lets look at his choice for the President of India. He wants Katrina Kaif as the president of India. I wonder what quality of the actor, who is not an Indian makes him feel so. Though I wont say it has anything to do with his fondness for Islam.
+
+Justice Katju, in spite of holding a very powerful position as a Supreme Court judge could not bring any change in the Indian society. He is so frustrated with his failures that he is now criticizing each and every person who is respected by masses for his achievements and sacrifices for the motherland. Most of his blogs appear to be a manifestation of this frustration. He seems to be trying hard to remain relevant with contaversial blog titles without any substance.
+
+At the end I would confess that I am too young, inexperienced and poorly read to speak up against a man of his stature. But Justice Katju must realize that it holds true for him too. Before pointing fingers at a person like Late M K Gandhi (who is no more to defend himself), Justice Katju should introspect. My sincere apologies for hurting him with this blog. Also the arguments made in this blog do not represnt my views on religion. I have equal respect for all the religions.

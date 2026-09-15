@@ -1,0 +1,17 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
+const posts = (await getCollection('posts')).sort((a,b) => b.data.date.localeCompare(a.data.date));
+---
+<BaseLayout title="Archive — Dr Rakesh Parikh">
+  <section class="hero"><div class="eyebrow">Personal archive</div><h1>All writing</h1><p>{posts.length} preserved posts from the original blog archive.</p></section>
+  <section class="post-list">
+    {posts.map(post => (
+      <article class="post-card">
+        <div class="meta">{post.data.date}</div>
+        <h2><a href={`/post/${post.data.slug}/`}>{post.data.title}</a></h2>
+        {post.data.categories.map(c => <span class="tag">{c}</span>)}
+      </article>
+    ))}
+  </section>
+</BaseLayout>

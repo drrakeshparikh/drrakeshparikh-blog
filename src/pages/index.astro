@@ -1,0 +1,62 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
+
+const posts = (await getCollection('posts')).sort((a,b) => b.data.date.localeCompare(a.data.date));
+const latest = posts.slice(0, 6);
+
+const counts = {};
+for (const p of posts) for (const c of p.data.categories) counts[c] = (counts[c] || 0) + 1;
+const topics = Object.entries(counts).sort((a,b) => b[1]-a[1]);
+
+const years = [...new Set(posts.map(p => p.data.date.slice(0,4)))].sort().reverse();
+---
+<BaseLayout title="Dr Rakesh Parikh — Personal Blog Archive">
+  <section class="hero">
+    <div class="eyebrow">Personal blog archive · 2014—2024</div>
+    <h1>Ideas, observations<br />and things worth thinking about.</h1>
+    <p class="hero-lede">The personal writings and perspectives of Dr Rakesh Parikh — politics, society, health, science and everything in between.</p>
+    <div class="hero-actions">
+      <a class="primary-link" href="https://diabecity.co.in" rel="noopener">My professional work — Diabecity →</a>
+      <a class="secondary-link" href="/archive/">Explore the archive →</a>
+    </div>
+  </section>
+
+  <section class="home-section">
+    <div class="section-heading">
+      <div class="eyebrow">Latest</div>
+      <a href="/archive/">View all →</a>
+    </div>
+    <div class="latest-list">
+      {latest.map(post => (
+        <article class="home-post">
+          <div class="home-post-date">{post.data.date}</div>
+          <div>
+            <div class="home-post-topics">{post.data.categories.join(' · ')}</div>
+            <h2><a href={`/post/${post.data.slug}/`}>{post.data.title}</a></h2>
+          </div>
+        </article>
+      ))}
+    </div>
+  </section>
+
+  <section class="home-section topics-section">
+    <div class="eyebrow">Explore by topic</div>
+    <div class="topic-grid">
+      {topics.map(([name,count]) => (
+        <a class="topic-card" href={`/categories/#${name.toLowerCase().replace(/[^a-z0-9]+/g,'-')}`}>
+          <span>{name}</span><small>{count} {count === 1 ? 'article' : 'articles'}</small>
+        </a>
+      ))}
+    </div>
+  </section>
+
+  <section class="archive-callout">
+    <div>
+      <div class="eyebrow">A decade of writing</div>
+      <h2>From {years[years.length-1] || '2014'} to {years[0] || '2024'}.</h2>
+      <p>Some pieces are timely. Others are simply part of the record. The archive keeps them together.</p>
+    </div>
+    <a class="secondary-link" href="/archive/">Browse by date →</a>
+  </section>
+</BaseLayout>

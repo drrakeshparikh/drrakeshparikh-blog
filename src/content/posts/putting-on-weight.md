@@ -1,0 +1,38 @@
+---
+title: "Why am I putting on weight?"
+slug: "putting-on-weight"
+date: "2014-10-25"
+originalUrl: "https://drrakeshparikh.com/putting-on-weight/"
+categories: ["Health"]
+tags: []
+legacyImages: false
+---
+Obesity (overweight) is one of the biggest problems humans are currently facing. Understanding the complete patho-physiology of obesity and finding a definitive cure is still a challenge for medical fraternity.
+
+Fortunately majority (more than 90%) of times its very simple to explain and understand the reason for weight gain, though there are a few cases where obesity is secondary to some medical disorder.
+
+It would be very easy to understand the energy balance of human body if you have read the earlier article. If you haven't, I would strongly recommend to go through it by clicking below.
+
+## Simplifying the most complex machine – human body
+
+As explained in the earlier chapter, glucose (obtained from digestion of carbohydrates) is the main source of energy, although everything that you eat is ultimately either burnt into energy (calories) or stored in the body.
+
+Energy expenditure of the body is through various activities that we perform. In addition to the routine activities and exercise a lot of energy is burnt in the process of keeping this machine running. Though we are unaware of activities like pumping of heart, breathing, digestion etc. a lot energy is consumed in these processes. This energy expenditure that happens even while body is resting is called as Basal Metabolic Rate (BMR).
+
+Your body has input of energy in the form of diet that you consume and energy expenditure for BMR and Exercise (like walking, running, playing etc.). If your input of energy is more than expenditure, the excessive calories are stored in the body in the form of fat, which leads to obesity. BMR, though dependent on many factors largely remains the same for individual bodies. Simply by being aware of the calories consumed and burnt by you, you can easily find out the reason for that excessive weight.
+
+There are a number of online calculators, that would tell you, your rough BMR based on your height, weight, gender and activity level. The BMR is roughly 20 times your body weight. A 60 kg man would roughly be spending 1200 cals per day for basal metabolism.
+
+Calories spent in exercise are far less than what you would expect. If you are walking for an hour, you would be spending around 300 cals. You may be able to spend upto 700 cals if you are doing vigorous exercise for an hour like playing football.
+
+Similarly the food item that we consume are usually calorie dense. A scoop of ice-cream or just 100 gms of some desert would have around 400 cals. To be able to burn that extra calories you got from the cup of ice-cream you might have consumed unknowingly, you will have to go for a brisk walk for an hour.
+
+This is the main reason for obesity. We unknowingly consume calorie dense food and fail to manage any kind of exercise. If one is aware of calories that he is consuming, he may restrict his daily calorie intake to the level of daily calorie expenditure. If you are looking for weight loss, you need to plan your intake in such a way that it remains less than output. If you are short of 500 cals per day, you may expect a weight loss of 1 kg in next 15 days.
+
+Glucose is the main source of energy and each gram of carbohydrate generates 4 cals. Additionally alcohol, fat and proteins can also be utilized for production of energy and they generate 7, 9 and 4 cals per gram respectively.
+
+There is a limit to alcohol that you can consume in a day. Diet rich in fat makes you feel full soon and so you may not consume a lot of excess calories via fat rich food, but you can easily consume a lot of calorie dense carbohydrates ( mostly items that are sweet). Proteins rich diet has a higher satiety index (makes you feel full early) and is not as rich in calories.
+
+With an honest analysis of the intake and output, you can often find out the answer to your question - why am I putting on weight? There would still be instances where the weight gain can not be explained and such cases are best seen by an expert doctor.
+
+In your weight loss diet you should completely stop consuming sugar, limit the fat intake and have a protein rich diet. In simple words stop sweets, limit fried food and have more of pulses, white egg, milk.

@@ -1,0 +1,46 @@
+---
+const { title = "Dr Rakesh Parikh's Blog", description = "Politics, Social, Health, Science & Beyond" } = Astro.props;
+---
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>{title}</title>
+    <meta name="description" content={description} />
+    <link rel="canonical" href={Astro.url} />
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <div class="professional-banner">
+      <div class="wrap professional-banner-inner">
+        <span><strong>Personal blog archive</strong> — writings and perspectives from Dr Rakesh Parikh.</span>
+        <a href="https://diabecity.co.in" rel="noopener">Looking for my professional work? Visit Diabecity →</a>
+      </div>
+    </div>
+    <header class="site-header">
+      <div class="wrap nav">
+        <a class="brand" href="/">Dr Rakesh Parikh</a>
+        <nav>
+          <a href="/">Home</a>
+          <a href="/archive/">Archive</a>
+          <a href="/categories/">Categories</a>
+          <a href="/about/">About</a>
+        </nav>
+      </div>
+    </header>
+    <main class="wrap"><slot /></main>
+    <footer class="site-footer">
+      <div class="wrap footer-grid">
+        <div>
+          <strong>Dr Rakesh Parikh</strong>
+          <div>Personal blog & writing archive</div>
+        </div>
+        <div>
+          <a href="https://diabecity.co.in" rel="noopener">Professional website: Diabecity →</a>
+        </div>
+      </div>
+      <div class="wrap footer-copy">© {new Date().getFullYear()} Dr Rakesh Parikh · Politics, Social, Health, Science & Beyond</div>
+    </footer>
+  </body>
+</html>

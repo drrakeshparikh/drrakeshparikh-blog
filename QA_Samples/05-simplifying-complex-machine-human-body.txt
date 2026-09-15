@@ -1,0 +1,37 @@
+TITLE: Simplifying the most complex machine - human body
+DATE: 2014-10-24 07:59:16
+URL: https://drrakeshparikh.com/simplifying-complex-machine-human-body/
+CATEGORIES: Health
+WORD COUNT: 1140
+IMAGES IN ORIGINAL: 0
+YOUTUBE REFERENCES IN ORIGINAL: 0
+LINKS IN ORIGINAL: 0
+
+ORIGINAL TEXT SAMPLE:
+No one can claim to have mastered the understanding of human body - the most complex machine. But we are are lucky to be owning one each. Buy a new mobile handset and you would try to explore it going through its manual or by playing with its features. Got a bike or car and you would ensure not missing its regular service. We are so careful about the simple gadgets that we would try our best to get then checked regularly so that we don't lose them. Do we bother to know about our own body? Do we get our body checked regularly just to be sure that all our organs are in good condition? Probably not many of us do that. Isn't it ironic that we don't care much about this most complex machine. Probably just because we got it for free. Lets start from knowing about our own body. I would try to keep it simple as possible without boasting about lot of medical terminologies. What is a human body made of? Human body simply consists of number of organs like brain, heart, kidneys, liver etc. each having its specific role that most of you are aware of. Each of these organs is actually a very complex machine and we haven't been yet able to replicate any of these. Just like a mobile handset has plastic, glass, steel etc. each organ would have number of component, let's call them as tissues. Now we know that steel is basically made up of carbon atoms, atoms being the basic unit. Similarly "Cell" is the basic unit of every tissue. Where does the body get energy from? We know that most of the machines that we use today work on electrical energy. In a fan this electrical energy is converted into mechanical energy that moves the blades of fan. The human body works on a specific energy that in the form of ATPs. The body produces energy in the form of ATPs and the same is used for every activi
+
+MIGRATED MARKDOWN SAMPLE:
+---
+title: "Simplifying the most complex machine - human body"
+slug: "simplifying-complex-machine-human-body"
+date: "2014-10-24"
+originalUrl: "https://drrakeshparikh.com/simplifying-complex-machine-human-body/"
+categories: ["Health"]
+tags: []
+legacyImages: false
+---
+No one can claim to have mastered the understanding of human body - the most complex machine. But we are are lucky to be owning one each. Buy a new mobile handset and you would try to explore it going through its manual or by playing with its features. Got a bike or car and you would ensure not missing its regular service. We are so careful about the simple gadgets that we would try our best to get then checked regularly so that we don't lose them. Do we bother to know about our own body? Do we get our body checked regularly just to be sure that all our organs are in good condition? Probably not many of us do that.
+
+>
+
+Isn't it ironic that we don't care much about this most complex machine. Probably just because we got it for free.
+
+Lets start from knowing about our own body. I would try to keep it simple as possible without boasting about lot of medical terminologies.
+
+**What is a human body made of?**
+
+Human body simply consists of number of organs like brain, heart, kidneys, liver etc. each having its specific role that most of you are aware of. Each of these organs is actually a very complex machine and we haven't been yet able to replicate any of these. Just like a mobile handset has plastic, glass, steel etc. each organ would have number of component, let's call them as tissues. Now we know that steel is basically made up of carbon atoms, atoms being the basic unit. Similarly "Cell" is the basic unit of every tissue.
+
+**Where does the body get energy from?**
+
+We know that most of the machines that we u

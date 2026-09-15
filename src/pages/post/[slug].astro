@@ -1,0 +1,22 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { getCollection, render } from 'astro:content';
+export async function getStaticPaths() {
+  const posts = await getCollection('posts');
+  return posts.map(post => ({ params: { slug: post.data.slug }, props: { post } }));
+}
+const { post } = Astro.props;
+const { Content } = await render(post);
+---
+<BaseLayout title={`${post.data.title} — Dr Rakesh Parikh`} description={post.data.title}>
+  <article>
+    <div class="eyebrow">{post.data.categories.join(' · ')}</div>
+    <h1>{post.data.title}</h1>
+    <div class="meta">{post.data.date}</div>
+    <div class="prose"><Content /></div>
+    <div class="professional-card">
+      <strong>Looking for my current professional work?</strong>
+      <span>Visit <a href="https://diabecity.co.in" rel="noopener">Diabecity</a> for my professional website and diabetes-related resources.</span>
+    </div>
+  </article>
+</BaseLayout>

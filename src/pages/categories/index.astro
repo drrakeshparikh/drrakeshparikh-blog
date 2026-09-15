@@ -1,22 +1,37 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import { getCollection } from 'astro:content';
+
 const posts = await getCollection('posts');
 
 const slugify = (value: string) =>
   value.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
 
 const counts = {};
-for (const p of posts) for (const c of p.data.categories) counts[c]=(counts[c]||0)+1;
-const cats = Object.entries(counts).sort((a,b)=>b[1]-a[1]);
+for (const p of posts) {
+  for (const c of p.data.categories) {
+    counts[c] = (counts[c] || 0) + 1;
+  }
+}
+
+const cats = Object.entries(counts).sort((a, b) => b[1] - a[1]);
 ---
+
 <BaseLayout title="Topics — Dr Rakesh Parikh">
-  <section class="hero compact-hero"><div class="eyebrow">Browse the archive</div><h1>Topics</h1><p>Explore the writing by subject.</p></section>
+
+  <section class="hero compact-hero">
+    <div class="eyebrow">Browse the archive</div>
+    <h1>Topics</h1>
+    <p>Explore the writing by subject.</p>
+  </section>
+
   <section class="post-list grid">
-    {cats.map(([name,count]) => (
-      <div class="panel" id={name.toLowerCase().replace(/[^a-z0-9]+/g,'-')}>
-        <strong>{name}</strong><div class="meta">{count} {count===1?'article':'articles'}</div>
-      </div>
+    {cats.map(([name, count]) => (
+      <a class="panel category-link" href={`/categories/${slugify(name)}/`}>
+        <strong>{name}</strong>
+        <div class="meta">{count} {count === 1 ? 'article' : 'articles'}</div>
+      </a>
     ))}
   </section>
+
 </BaseLayout>

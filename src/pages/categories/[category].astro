@@ -1,0 +1,43 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
+
+export async function getStaticPaths() {
+  const slugify = (value: string) =>
+    value.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+
+  const posts = await getCollection('posts');
+  const categories = [...new Set(posts.flatMap(post => post.data.categories))];
+
+  return categories.map(category => ({
+    params: { category: slugify(category) },
+    props: { categoryName: category },
+  }));
+}
+
+const posts = await getCollection('posts');
+const category = Astro.props.categoryName;
+
+const matchingPosts = posts
+  .filter(post => post.data.categories.includes(category))
+  .sort((a, b) => b.data.date.localeCompare(a.data.date));
+---
+
+<BaseLayout title={`${category} — Dr Rakesh Parikh`}>
+  <section class="hero compact-hero">
+    <div class="eyebrow">Archive topic</div>
+    <h1>{category}</h1>
+    <p>{matchingPosts.length} {matchingPosts.length === 1 ? 'article' : 'articles'} in this topic.</p>
+  </section>
+
+  <section class="post-list">
+    {matchingPosts.map(post => (
+      <article class="panel">
+        <div class="meta">{post.data.date}</div>
+        <h2>
+          <a href={`/post/${post.data.slug}/`}>{post.data.title}</a>
+        </h2>
+      </article>
+    ))}
+  </section>
+</BaseLayout>

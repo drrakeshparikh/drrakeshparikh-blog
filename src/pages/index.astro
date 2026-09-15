@@ -44,7 +44,7 @@ const years = [...new Set(posts.map(p => p.data.date.slice(0,4)))].sort().revers
     <div class="eyebrow">Explore by topic</div>
     <div class="topic-grid">
       {topics.map(([name,count]) => (
-        <a class="topic-card" href={`/categories/#${name.toLowerCase().replace(/[^a-z0-9]+/g,'-')}`}>
+        <a class="topic-card" href={`/categories/${name.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '')}/`}>
           <span>{name}</span><small>{count} {count === 1 ? 'article' : 'articles'}</small>
         </a>
       ))}
